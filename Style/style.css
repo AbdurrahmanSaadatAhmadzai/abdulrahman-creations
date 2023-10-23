@@ -1,0 +1,71 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  .game-container {
+    text-align: center;
+  }
+  body {
+    background-image: url("Images/background-image.jpg");
+    background-color: pink;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .sub-title {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 20px;
+  }
+
+  .move-icon {
+    height: 120px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .move-button {
+    background-color: transparent;
+    border: 1px solid rgb(37, 36, 36);
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
+  .score {
+    margin-top: 60px;
+  }
+
+  .reset-score-button {
+    background-color: gainsboro;
+    border: none;
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 33px;
+    font-weight: bold;
+  }
